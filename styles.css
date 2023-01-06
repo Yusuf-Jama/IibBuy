@@ -8,6 +8,11 @@
     scroll-behavior: smooth;
 }
 
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 li{
     list-style: none;
@@ -128,7 +133,41 @@ nav{
     border-radius: 50%;
 }
 
-/*Services*/
+/*HOUSES*/
+
+.house__container{
+    position: relative;
+}
+
+.house__column{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-width: 1280px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.house__img-case{
+    position: relative;
+    flex-shrink: 0;
+}
+
+.house__img{
+    border-radius: 0.25rem;
+}
+
+.house__list--design{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*SERVICES*/
 
 .container{
     padding: 50px 0;
