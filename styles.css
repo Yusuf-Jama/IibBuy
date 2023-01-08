@@ -167,6 +167,55 @@ nav{
     align-items: center;
 }
 
+.house__info{
+    margin-top: 4rem;
+}
+
+.house__text{
+    text-align: center;
+}
+
+.house__header{
+    text-align: center;
+}
+
+.house__header--text{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.house-sub__header{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.875rem;
+    font-weight: 900;
+    line-height: 1.25;
+}
+
+.house__ul{
+    margin-top: 3rem;
+}
+
+.house__list{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.house__num{
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 1;
+    --tw-text-opacity: 1;
+    color: rgb(203, 213, 224 / var(--tw-text-opacity));
+}
+
+.house__list--text{
+    margin-top: 0.75rem;
+}
+
 /*SERVICES*/
 
 .container{
