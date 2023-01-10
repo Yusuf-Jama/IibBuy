@@ -32,6 +32,15 @@ section{
     color: rgb(18, 74, 171);
 }
 
+body{
+    background-color: rgb(222, 222, 222);
+    color: black;
+}
+
+.dark-mode{
+    background-color: darkslategrey;
+    color: white;
+}
 
 /*NAVIGATION*/
 
