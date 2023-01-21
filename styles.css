@@ -50,16 +50,18 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1350px;
     margin: 0 auto;
-    height: 100px;
+    height: 150px;
+    background-color: rgb(18, 74, 171)
 }
 
 #personal-logo{
     height: 125px;
     width: 250px;
    filter: invert(0); 
-   margin-top: 50px;
+   margin-top: 1px;
+   margin-left: 15px;
 }
 
 .nav__link--list{
@@ -144,85 +146,20 @@ nav{
 
 /*HOUSES*/
 
-.house__container{
-    position: relative;
-}
-
-.house__column{
-    margin-left: auto;
-    margin-right: auto;
+.house__ul{
     display: flex;
-    max-width: 1280px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    margin-bottom: 16px;
 }
 
-.house__img-case{
-    position: relative;
-    flex-shrink: 0;
+.item__house--wrapper{
+    height: 100%;
+    border-radius: 8px;
 }
 
 .house__img{
-    border-radius: 0.25rem;
-}
-
-.house__list--design{
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.house__info{
-    margin-top: 4rem;
-}
-
-.house__text{
-    text-align: center;
-}
-
-.house__header{
-    text-align: center;
-}
-
-.house__header--text{
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-}
-
-.house-sub__header{
-    margin-top: 1rem;
-    text-align: center;
-    font-size: 1.875rem;
-    font-weight: 900;
-    line-height: 1.25;
-}
-
-.house__ul{
-    margin-top: 3rem;
-}
-
-.house__list{
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.house__num{
-    font-size: 2.25rem;
-    font-weight: 600;
-    line-height: 1;
-    --tw-text-opacity: 1;
-    color: rgb(203, 213, 224 / var(--tw-text-opacity));
-}
-
-.house__list--text{
-    margin-top: 0.75rem;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 /*SERVICES*/
