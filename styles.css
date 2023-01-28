@@ -278,7 +278,22 @@ nav{
     color: #111820;
 }
 
+/*CARS*/
 
+.car__container{
+    text-align: center;
+}
+
+.block {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    background-color: lightgray;
+  }
+.car__img{
+    width: 100px;
+    height: 100px;
+}  
 
 /*SERVICES*/
 
