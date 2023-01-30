@@ -287,13 +287,44 @@ nav{
 .block {
     display: inline-block;
     width: 400px;
-    height: 400px;
+    height: 420px;
     background-color: lightgray;
+    margin-bottom: 5px;
   }
 .car__img{
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 225px;
 }  
+
+.car__model{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.car__status{
+    font-weight: 500;
+    color: #707070;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.car__description{
+    font-weight: bold;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+
+    .car__cart{
+    font-weight: 500;
+    color: #707070;
+    text-align: right;
+    margin-right: 20px;
+    padding-right: 20px;
+    }
 
 /*SERVICES*/
 
