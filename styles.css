@@ -310,11 +310,31 @@ nav{
 
 /*LAND*/
 
+.land__container{
+    text-align: center;
+}
+
 .land__block{
     display: inline-block;
     width: 1200px;
     height: 500px;
     background-color: lightgray;
+}
+
+.land__title{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 130px;
+    margin-top: 15px;
+}
+
+.land__img{
+    width: 550px;
+    height: 425px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 24px;
 }
 
 /*CARS*/
