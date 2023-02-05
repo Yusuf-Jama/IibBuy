@@ -315,16 +315,25 @@ nav{
 }
 
 .land__block{
-    display: inline-block;
-    width: 1200px;
+    display: flex;
+    justify-content: baseline;
+    width: 600px;
     height: 500px;
     background-color: lightgray;
+    border-style: ridge;
+}
+
+.land__block-2{
+    display: inline-block;
+    width: 600px;
+    height: 350px;
+    background-color: lightgray;
+    border-style: ridge;
 }
 
 .land__title{
     font-weight: 700;
     font-size: 30px;
-    text-align: left;
     margin-left: 130px;
     margin-top: 15px;
 }
@@ -332,9 +341,20 @@ nav{
 .land__img{
     width: 550px;
     height: 425px;
-    display: flex;
-    align-items: flex-end;
     margin-left: 24px;
+}
+
+.land__ul{
+    font-size: 24px;
+}
+
+.land__header{
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.land__list{
+    list-style-type: square;
 }
 
 /*CARS*/
