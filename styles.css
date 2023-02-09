@@ -315,20 +315,20 @@ nav{
 }
 
 .land__block{
-    display: flex;
-    justify-content: baseline;
-    width: 600px;
+    display: inline-block;
+    width: 1000px;
     height: 500px;
     background-color: lightgray;
-    border-style: ridge;
+    margin-bottom: 20px;
+    margin-top: 35px;
 }
 
 .land__block-2{
     display: inline-block;
-    width: 600px;
-    height: 350px;
+    margin-bottom: 1000px;
+    width: 1000px;
+    height: 200px;
     background-color: lightgray;
-    border-style: ridge;
 }
 
 .land__title{
@@ -339,23 +339,25 @@ nav{
 }
 
 .land__img{
-    width: 550px;
-    height: 425px;
+    width: 700px;
+    height: 440px;
     margin-left: 24px;
 }
 
 .land__ul{
     font-size: 24px;
+    list-style: none;
+    margin-bottom: 25px;
 }
 
 .land__header{
     font-weight: 700;
     font-size: 35px;
+    margin-right: 40px;
+    text-align: center;
 }
 
-.land__list{
-    list-style-type: square;
-}
+
 
 /*CARS*/
 
@@ -490,6 +492,21 @@ nav{
     opacity: 0; 
     transition: all 450ms ease;
     visibility: hidden;
+  }
+
+  .project__wrapper:hover .project__description {
+    opacity: 1;
+    transform: translateY(-50%);
+  }
+  
+  .project__wrapper:hover .project__img {
+    transform: scale(1.07);
+    filter: blur(5px);
+  }
+
+  .project__wrapper:hover .project__wrapper--bg {
+    opacity: 0.7; 
+    visibility: visible;
   }
 
 .project__description--title{
